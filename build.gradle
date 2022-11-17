@@ -1,5 +1,5 @@
 wrapper {
-    gradleVersion = '6.5.1'
+    gradleVersion = '7.5.1'
 }
 
 allprojects {
@@ -8,7 +8,7 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'java'
+    apply plugin: 'java-library'
     apply plugin: 'eclipse'
     apply plugin: 'maven-publish'
 
