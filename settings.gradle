@@ -1,0 +1,6 @@
+include 'linux', 'windows', 'macosx', 'unix', 'share'
+project(':linux').name = 'jpackage-linux'
+project(':windows').name = 'jpackage-windows'
+project(':macosx').name = 'jpackage-macosx'
+project(':unix').name = 'jpackage-unix'
+project(':share').name = 'jpackage-share'
