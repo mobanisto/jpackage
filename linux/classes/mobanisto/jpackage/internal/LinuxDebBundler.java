@@ -330,7 +330,7 @@ public class LinuxDebBundler extends LinuxPackageBundler {
 
     public static boolean isDebian() {
         // we are just going to run "dpkg -s coreutils" and assume Debian
-        // or deritive if no error is returned.
+        // or derivative if no error is returned.
         try {
             Executor.of(TOOL_DPKG, "-s", "coreutils").executeExpectSuccess();
             return true;
